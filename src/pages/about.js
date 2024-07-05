@@ -1,8 +1,7 @@
 import React from 'react';
-import Layout from '../components/Layout';
 
 const AboutPage = () => (
-  <Layout>
+  <div>
     <h1 style={{ textAlign: 'center' }}>About Us</h1>
     <div style={{ display: 'flex', alignItems: 'center' }}>
       <div style={{ flex: 1, padding: '20px' }}>
@@ -18,7 +17,7 @@ const AboutPage = () => (
         <img src="https://via.placeholder.com/300" alt="Placeholder Image 2" />
       </div>
     </div>
-  </Layout>
+  </div>
 );
 
 export default AboutPage;

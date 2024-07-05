@@ -1,5 +1,4 @@
 import React from 'react';
-import Layout from '../components/Layout';
 
 const menuData = {
   "Drinks": [
@@ -42,7 +41,7 @@ const menuData = {
 };
 
 const DessertTruckPage = () => (
-  <Layout>
+  <div>
     <h1>Dessert Truck Menu</h1>
     <div style={{ display: 'flex', justifyContent: 'space-between' }}>
       <div>
@@ -68,7 +67,7 @@ const DessertTruckPage = () => (
         ))}
       </div>
     </div>
-  </Layout>
+  </div>
 );
 
 export default DessertTruckPage;

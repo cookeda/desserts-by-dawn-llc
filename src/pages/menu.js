@@ -1,5 +1,4 @@
 import React from 'react';
-import Layout from '../components/Layout';
 
 const menuData = {
   "Cake Flavors": [
@@ -53,7 +52,7 @@ const menuData = {
 };
 
 const MenuPage = () => (
-  <Layout>
+  <div>
     <div style={styles.pageContainer}>
       <div style={styles.imageContainer}>
         <img src="placeholder.jpg" alt="Left Side Image" style={styles.sideImage} />
@@ -113,7 +112,7 @@ const MenuPage = () => (
         <img src="placeholder.jpg" alt="Right Side Image" style={styles.sideImage} />
       </div>
     </div>
-  </Layout>
+  </div>
 );
 
 const styles = {

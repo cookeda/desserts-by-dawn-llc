@@ -1,8 +1,7 @@
 import React from 'react';
-import Layout from '../components/Layout';
 
 const ContactPage = () => (
-  <Layout>
+  <div>
     <h1>Contact Us</h1>
     <p>Need a quote or confirm a date?</p>
     <p>Drop us a line!</p>
@@ -16,7 +15,7 @@ const ContactPage = () => (
     <p>By Appointment Only</p>
     <p>Plan ahead!</p>
     <p>Please allow a minimum of two months on orders</p>
-  </Layout>
+  </div>
 );
 
 export default ContactPage;
